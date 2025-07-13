@@ -1,6 +1,6 @@
-Proyecto E-commerce Frontend
-
-Sitio web de e-commerce completo desarrollado como entrega final del curso de Desarrollo Frontend de Talento Tech 2025.
+## Proyecto E-commerce JS-Frontend
+Piccone Gabriel Jeremías 33.853.325
+Sitio web de e-commerce completo desarrollado como entrega final del curso de Desarrollo JS-Frontend de Talento Tech 1er cuatrimestre 2025.
 
 ---
 
@@ -35,10 +35,8 @@ Sitio web de e-commerce completo desarrollado como entrega final del curso de De
 
 ##  Instalación local
 
-1. Cloná este repositorio:
+Cloná este repositorio:
 
-```bash
-git clone 
-cd
+git clone https://github.com/gabrieljp88/ecommerce-proyecto
+cd ecommerce-proyecto
 
-# ecommerce-proyecto
