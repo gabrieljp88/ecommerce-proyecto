@@ -1,0 +1,66 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E-commerce completo con carrito, filtros, reseñas y más.">
+  <title>E-commerce Completo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header con navegación -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="carrito.html">Carrito <span id="contador-carrito">(0)</span></a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+      <!-- Buscador fijo -->
+      <div class="buscador-container">
+        <input type="text" id="buscador" placeholder="Buscar productos..." />
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero principal -->
+  <main>
+    <section class="hero-section" style="background-image: url('img/fondo-hero.jpg'); background-size: cover; background-position: center;">
+      <h1>Bienvenido a nuestra tienda</h1>
+      <p>Encontrá lo que necesitás al mejor precio</p>
+    </section>
+
+    <!-- Productos cargados desde la API -->
+    <section class="productos-grid" id="contenedor-productos">
+      <!-- JS insertará los productos acá -->
+    </section>
+
+    <!-- Carrusel de reseñas -->
+    <section class="carousel">
+      <div class="slide active">"Excelente atención y productos de calidad."</div>
+      <div class="slide">"Muy buena experiencia de compra."</div>
+      <div class="slide">"Volveré a comprar sin dudas."</div>
+    </section>
+  </main>
+
+  <!-- Footer con redes sociales -->
+  <footer>
+    <p>© 2025 E-commerce. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="#"><img src="img/whatsapp.png" alt="WhatsApp" /></a>
+      <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+    </div>
+  </footer>
+
+  <!-- Mensaje flotante tipo snackbar -->
+  <div id="snackbar">Producto agregado al carrito</div>
+
+  <!-- Script principal -->
+  <script src="js/script.js"></script>
+</body>
+</html>

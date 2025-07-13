@@ -1,0 +1,59 @@
+<!-- perfil.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Perfil del usuario registrado.">
+  <title>Perfil - E-commerce</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header con navegación -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="carrito.html">Carrito <span id="contador-carrito">(0)</span></a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+      <div class="buscador-container">
+        <input type="text" id="buscador" placeholder="Buscar productos..." />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="titulo-pagina">Perfil de usuario</h1>
+
+    <!-- Contenido del perfil -->
+    <section class="perfil-container">
+      <div class="perfil-datos">
+        <h2>Nombre: Juan Usuario</h2>
+        <p>Email: juan@email.com</p>
+        <p>Miembro desde: Marzo 2024</p>
+      </div>
+
+      <div class="perfil-acciones">
+        <button>Editar perfil</button>
+        <button>Cerrar sesión</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer con íconos sociales -->
+  <footer>
+    <p>© 2025 E-commerce. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="#"><img src="img/whatsapp.png" alt="WhatsApp" /></a>
+      <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
